@@ -1,16 +1,7 @@
-from audioop import cross
-from cmath import isnan
-from multiprocessing.sharedctypes import Value
 import repitl.kernel_utils as ku
 import repitl.matrix_itl as itl
-import repitl.matrix_itl_approx as approx
 import repitl.difference_of_entropies as dent
-import repitl.informativeness as inform
 import torch
-import scipy
-import time
-import numpy as np
-import matplotlib.pyplot as plt
 
 """
 Here are implementations for a bunch of model loss functions.

@@ -29,4 +29,8 @@ models.py: Includes the models used in all the experiments
 trainer.py: Includes the function to train the different models
 ```
 
+Installation:
+
+Can use the same conda environment as detailed in the multiview-MNIST folder.
+
 

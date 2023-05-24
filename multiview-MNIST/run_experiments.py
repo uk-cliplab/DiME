@@ -1,15 +1,10 @@
 import numpy as np
-from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
-from IPython import display
 import torch
-import torchvision
-from torchvision import datasets, transforms
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import DataLoader
 import torch.nn as nn
 import torch.multiprocessing as mp
 import itertools
-import time
 import os
 import models
 import utils.visual_utils as vu
@@ -59,6 +54,8 @@ parser.add_argument('--traineval', type=bool, nargs='?', const=True, default=Fal
 parser.add_argument('--device', type=int, nargs='?', const=0, default=0, help='which cuda device to use')
 
 parser.add_argument('--recon', type=int, nargs='?', const=0, default=0, help='how many recon dims to use')
+
+parser.add_argument('--single', type=bool, nargs='?', default=False, help='if true, uses a single encoder')
 
 args = parser.parse_args()
 

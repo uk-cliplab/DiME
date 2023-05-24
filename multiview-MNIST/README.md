@@ -11,6 +11,11 @@ Folder structure:
     disentanglement.ipynb - Shows how to use conditional entropy to disentangle shared and exclusive components.
     multiview_mi - shows rotated/noisy dataset and TSNE embeddings of what DiME learns
 
+Conda environment
+    - conda env create -f environment.yml
+    - conda activate mnist
+    - then install the repitl library via instructions in the representation-itl folder
+
 Usage:
     - There are two notebooks, disentanglement.ipynb and multiview_mi.ipynb, that make it easy to see some experiments
 

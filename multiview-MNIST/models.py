@@ -1,7 +1,5 @@
 import torch
 import torch.nn as nn
-import numpy as np
-from math import prod
 
 class Big_Convolutional_Encoder(nn.Module):
     def __init__(self, latent_dim, linear_size = 1024, img_size=(1, 28, 28)):
