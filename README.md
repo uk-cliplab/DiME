@@ -1,6 +1,4 @@
-AISTATS Supplemental Material
-
-This code submission has one library subfolder and four other subfolders pertaining to different experiments:
+This codebase has one library subfolder and four other subfolders pertaining to different experiments:
 
 1. representation-itl - Library with common functionality to all experiments. Implements DiME and its prerequisite information-theoretic quantities.
 2. DiME-GAN - Notebook with GAN experiments
