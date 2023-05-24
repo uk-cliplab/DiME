@@ -1,5 +1,6 @@
-Variational_bounds is a notebook intended to be ran in Jupyter Lab. 
-There is a little bit of simple setup required
+Variational_bounds.ipynb is a notebook intended to be ran in Jupyter Lab. 
+This notebook is adapted an open source notebook: https://colab.research.google.com/github/google-research/google-research/blob/master/vbmi/vbmi_demo.ipynb
+There is a little bit of simple setup required.
 
 Make a new conda env accessible by jupyter lab
 
