@@ -88,3 +88,4 @@ dependencies:
       - torchvision==0.13.0+cu116
       - tzdata==2023.3
       - urllib3==2.0.2
+      - -e git+https://github.com/uk-cliplab/representation-itl.git@687216cbff8f2e892baf5ca0b1b9f48f568e825a#egg=representation_itl

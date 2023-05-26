@@ -1,4 +1,4 @@
-This repository hosts an implementation of a multiview autoencoder that learns representations with DiME
+This folder has an implementation of a multiview autoencoder that learns representations with DiME
 
 Folder structure:
     utils/data_utils/* - functions to create multiview datasets
@@ -14,7 +14,6 @@ Folder structure:
 Conda environment
     - conda env create -f environment.yml
     - conda activate mnist
-    - then install the repitl library via instructions in the representation-itl folder
 
 Usage:
     - There are two notebooks, disentanglement.ipynb and multiview_mi.ipynb, that make it easy to see some experiments

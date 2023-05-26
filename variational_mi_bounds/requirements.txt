@@ -16,6 +16,7 @@ tensorboard==1.15.0
 tensorflow-estimator==1.15.1
 tensorflow-gpu==1.15.2
 pandas==1.1.5
+-e git+https://github.com/uk-cliplab/representation-itl.git@687216cbff8f2e892baf5ca0b1b9f48f568e825a#egg=representation_itl
 tensorflow-probability==0.7.0
 torch==1.10.2
 matplotlib==3.3.4

@@ -16,6 +16,4 @@ STEP 5: ipython kernel install --name=<name> --user
 
 STEP 6: pip install -r requirements.txt
 
-STEP 7: install repitl library via instructions in representation-itl folder
-
 Now this new conda kernel will appear in Jupyterlab. If it doesn't try refreshing the page. Run the notebook with the kernel

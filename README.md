@@ -1,7 +1,9 @@
-This codebase has one library subfolder and four other subfolders pertaining to different experiments:
+This codebase contains implementations for "Skean, Oscar, et al.  DiME: Maximizing Mutual Information by a Difference of Matrix-Based Entropies."
 
-1. representation-itl - Library with common functionality to all experiments. Implements DiME and its prerequisite information-theoretic quantities.
-2. DiME-GAN - Notebook with GAN experiments
-3. multiview-MNIST - Notebooks and code for rotated/noisy MNIST multiview dataset and associated experiments
-4. multiview-Colored-MNIST - Notebooks and code for colored MNIST multiview dataset and associated experiments
-5. variational_mi_bounds - Notebook with variational bounds comparisons
+There are four subfolders pertaining to different experiments:
+
+
+1. variational_mi_bounds - Notebook with variational bounds comparisons
+2. multiview-MNIST - Notebooks and code for rotated/noisy MNIST multiview dataset and associated experiments
+3. multiview-Colored-MNIST - Notebooks and code for colored MNIST multiview dataset and associated experiments
+4. DiME-GAN - Notebook with GAN experiments
